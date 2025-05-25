@@ -3,7 +3,7 @@ from pathlib import Path
 from modules import *
 
 
-st.image("assets\BINF_Club_Logo_slim.png")
+st.image(f"{Path("assets/BINF_Club_Logo_slim.png")}")
 st.title("Welcome to the U of C Bioinformatics Club")
 
 
